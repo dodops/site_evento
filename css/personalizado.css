@@ -1,0 +1,72 @@
+/*!
+ * Start Bootstrap - Small Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 20px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background-color: #fff;
+    padding-bottom: 20px;
+    position: relative;
+}
+#palestrantes {
+  padding-top: 50px;
+}
+
+.container {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.col-md-4{
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.bla{
+  position: relative;
+  text-align: center;
+}
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,
+.Flexible-container object,
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+}
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 20px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+}
